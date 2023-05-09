@@ -1,0 +1,70 @@
+
+  .bg {
+    /* The image used */
+    background-image: linear-gradient(110deg, #333333 , #36454f );
+    /* background-color: #333333    ; */
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  h1 {
+    position: relative;
+    color: white;
+    top: 300px;
+    right: -300px;
+    font-size: 50px;
+    font-family: Monospace;
+  }
+  h2.job-title {
+    position: relative;
+    color: #7FFFD4;
+    font-size: 40px;
+    top: 300px;
+    right: -400px;
+  }
+  .intro {
+    position: relative;
+    color: white;
+    top: 275px;
+    font-size: 20px;
+    right: -400px;
+  }
+  .myName {
+    color: #7FFFD4;
+  }
+
+  .me {
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+  }
+
+  .extraInfo {
+    position: absolute;
+    left: 250px;
+    bottom:250px;
+    display: table;
+    font-size: 18px;
+  }
+
+
+  .extraInfo1 {
+    color: #7FFFD4;
+    height: 100%;
+    display: table-cell;
+  }
+
+  .extraInfo2 {
+    color: #7FFFD4;
+    height: 100%;
+    display: table-cell;
+    padding-left: 100px;
+  }
+  

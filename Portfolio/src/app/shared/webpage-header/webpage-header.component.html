@@ -1,0 +1,12 @@
+<div class="toolbar" role="banner" [style.background-image]="themeSetting" [style.color]="'white'">
+  <!-- TODO: change/remove image logo to an appropriate one  -->
+  <img
+    width="100"
+    alt="Placeholder Logo"
+    src="../../../assets/Capture-removebg-preview.png"
+  />
+  <span>{{ pageName }}</span>
+    <div class="spacer"></div>
+    <a *ngFor="let content of headerContents" class="content"> {{ content }}</a>
+</div>
+  
